@@ -1,0 +1,97 @@
+/**
+ * file: style.css
+ * purpose: effects ...
+ **/
+
+
+/* Animation code */
+
+@keyframes procent {
+	0% {
+		background-color: red;
+	}
+	25% {
+		background-color: blue;
+	}
+	50% {
+		background-color: green;
+	}
+	100% {
+		background-color: yellow;
+	}	0% {
+		transform: rotate(0deg);
+	}
+	100% {
+		transform: rotate(360deg);
+	}
+}
+
+
+body {
+	background-color: pink;
+	animation-name: procent;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+}
+
+
+/* Animation code */
+
+@keyframes examle {
+	from {
+		font-size: 9rem;
+	}
+	to {
+		font-size: 1rem;
+	}
+}
+
+article {
+	width: 26rem;
+}
+
+h1,
+h2 {
+	font-size: 2rem;
+	font-weight: bold;
+	font-family: 'Rammetto One', cursive;
+}
+
+#first {
+	width: 10rem;
+}
+
+.overskrifter {}
+
+.overskrifter2 {}
+
+.tekst {
+	font-family: 'Alegreya Sans', sans-serif;
+	animation-name: example;
+	font-size: 1.2rem;
+	animation-duration: 6s;
+}
+
+
+/* Animation code */
+
+@keyframes fig1 {
+	0% {
+		transform: rotate(0deg);
+	}
+	100% {
+		transform: rotate(360deg);
+	}
+}
+/* Animation code */
+
+
+
+.fig1 {
+	animation-name: fig1;
+	animation-iteration-count: infinite;
+	animation-duration: 2s;
+	animation-direction: reverse;
+	animation-timing-function: linear;
+}
+
